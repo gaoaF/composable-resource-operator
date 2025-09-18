@@ -25,8 +25,8 @@ import (
 
 	ctrl "sigs.k8s.io/controller-runtime"
 
-	"github.com/IBM/composable-resource-operator/api/v1alpha1"
-	"github.com/IBM/composable-resource-operator/internal/cdi"
+	"github.com/CoHDI/composable-resource-operator/api/v1alpha1"
+	"github.com/CoHDI/composable-resource-operator/internal/cdi"
 )
 
 var setupLog = ctrl.Log.WithName("sunfish_client")

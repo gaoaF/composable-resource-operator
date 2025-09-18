@@ -1,4 +1,4 @@
-module github.com/IBM/composable-resource-operator
+module github.com/CoHDI/composable-resource-operator
 
 go 1.24.0
 

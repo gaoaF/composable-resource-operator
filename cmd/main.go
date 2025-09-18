@@ -36,9 +36,9 @@ import (
 	metricsserver "sigs.k8s.io/controller-runtime/pkg/metrics/server"
 	"sigs.k8s.io/controller-runtime/pkg/webhook"
 
-	crov1alpha1 "github.com/IBM/composable-resource-operator/api/v1alpha1"
-	"github.com/IBM/composable-resource-operator/internal/controller"
-	webhookcrov1alpha1 "github.com/IBM/composable-resource-operator/internal/webhook/v1alpha1"
+	crov1alpha1 "github.com/CoHDI/composable-resource-operator/api/v1alpha1"
+	"github.com/CoHDI/composable-resource-operator/internal/controller"
+	webhookcrov1alpha1 "github.com/CoHDI/composable-resource-operator/internal/webhook/v1alpha1"
 	// +kubebuilder:scaffold:imports
 )
 
