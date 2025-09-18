@@ -37,8 +37,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/handler"
 	"sigs.k8s.io/controller-runtime/pkg/predicate"
 
-	crov1alpha1 "github.com/IBM/composable-resource-operator/api/v1alpha1"
-	"github.com/IBM/composable-resource-operator/internal/utils"
+	crov1alpha1 "github.com/CoHDI/composable-resource-operator/api/v1alpha1"
+	"github.com/CoHDI/composable-resource-operator/internal/utils"
 )
 
 const (

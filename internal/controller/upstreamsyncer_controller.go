@@ -27,9 +27,9 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/manager"
 
-	crov1alpha1 "github.com/IBM/composable-resource-operator/api/v1alpha1"
-	"github.com/IBM/composable-resource-operator/internal/cdi"
-	"github.com/IBM/composable-resource-operator/internal/utils"
+	crov1alpha1 "github.com/CoHDI/composable-resource-operator/api/v1alpha1"
+	"github.com/CoHDI/composable-resource-operator/internal/cdi"
+	"github.com/CoHDI/composable-resource-operator/internal/utils"
 )
 
 var upstreamSyncerLog = ctrl.Log.WithName("upstream_syncer_controller")

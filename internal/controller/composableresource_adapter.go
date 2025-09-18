@@ -24,10 +24,10 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/IBM/composable-resource-operator/internal/cdi"
-	ftiCM "github.com/IBM/composable-resource-operator/internal/cdi/fti/cm"
-	ftiFM "github.com/IBM/composable-resource-operator/internal/cdi/fti/fm"
-	"github.com/IBM/composable-resource-operator/internal/cdi/sunfish"
+	"github.com/CoHDI/composable-resource-operator/internal/cdi"
+	ftiCM "github.com/CoHDI/composable-resource-operator/internal/cdi/fti/cm"
+	ftiFM "github.com/CoHDI/composable-resource-operator/internal/cdi/fti/fm"
+	"github.com/CoHDI/composable-resource-operator/internal/cdi/sunfish"
 )
 
 type ComposableResourceAdapter struct {

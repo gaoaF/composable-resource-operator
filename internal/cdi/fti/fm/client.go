@@ -36,10 +36,10 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/IBM/composable-resource-operator/api/v1alpha1"
-	"github.com/IBM/composable-resource-operator/internal/cdi"
-	"github.com/IBM/composable-resource-operator/internal/cdi/fti"
-	ftifmapi "github.com/IBM/composable-resource-operator/internal/cdi/fti/fm/api"
+	"github.com/CoHDI/composable-resource-operator/api/v1alpha1"
+	"github.com/CoHDI/composable-resource-operator/internal/cdi"
+	"github.com/CoHDI/composable-resource-operator/internal/cdi/fti"
+	ftifmapi "github.com/CoHDI/composable-resource-operator/internal/cdi/fti/fm/api"
 )
 
 var (

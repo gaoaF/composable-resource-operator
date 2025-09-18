@@ -19,7 +19,7 @@ package cdi
 import (
 	"errors"
 
-	"github.com/IBM/composable-resource-operator/api/v1alpha1"
+	"github.com/CoHDI/composable-resource-operator/api/v1alpha1"
 )
 
 type DeviceInfo struct {

@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	crov1alpha1 "github.com/IBM/composable-resource-operator/api/v1alpha1"
+	crov1alpha1 "github.com/CoHDI/composable-resource-operator/api/v1alpha1"
 	"github.com/agiledragon/gomonkey/v2"
 	metal3v1alpha1 "github.com/metal3-io/baremetal-operator/apis/metal3.io/v1alpha1"
 	machinev1beta1 "github.com/metal3-io/cluster-api-provider-metal3/api/v1beta1"

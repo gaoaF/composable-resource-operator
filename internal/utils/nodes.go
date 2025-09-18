@@ -27,7 +27,7 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/IBM/composable-resource-operator/api/v1alpha1"
+	"github.com/CoHDI/composable-resource-operator/api/v1alpha1"
 )
 
 var nodesLog = ctrl.Log.WithName("utils_nodes")

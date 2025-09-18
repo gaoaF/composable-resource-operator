@@ -22,7 +22,7 @@ import (
 	k8serrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	crov1alpha1 "github.com/IBM/composable-resource-operator/api/v1alpha1"
+	crov1alpha1 "github.com/CoHDI/composable-resource-operator/api/v1alpha1"
 )
 
 var (

@@ -27,7 +27,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/webhook"
 	"sigs.k8s.io/controller-runtime/pkg/webhook/admission"
 
-	crov1alpha1 "github.com/IBM/composable-resource-operator/api/v1alpha1"
+	crov1alpha1 "github.com/CoHDI/composable-resource-operator/api/v1alpha1"
 )
 
 // nolint:unused
